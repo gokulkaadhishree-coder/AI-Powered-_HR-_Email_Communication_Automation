@@ -1,0 +1,26 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "CategoryClassificationAgent",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "6e26b0d8-b2c1-4b3e-82a7-a6eb1fb16bef",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "fileName": null,
+      "fileReference": null,
+      "name": "CategoryClassificationAgent",
+      "description": null
+    },
+    "locks": [],
+    "key": "8de19595-ba43-44cd-8c82-aaf8d1718d8c"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "$id": "entry-points.json",
+  "entryPoints": [
+    {
+      "filePath": "/content/agent.json",
+      "type": "agent",
+      "uniqueId": "c1457cf0-4531-4741-b8bb-08035fc21292",
+      "input": {
+        "type": "object",
+        "required": [
+          "emailContent"
+        ],
+        "properties": {
+          "emailContent": {
+            "type": "string",
+            "description": "The full text of the employee email sent to the HR department"
+          }
+        }
+      },
+      "output": {
+        "type": "object",
+        "required": [
+          "categoryName",
+          "categoryExplanation"
+        ],
+        "properties": {
+          "categoryName": {
+            "type": "string",
+            "description": "The HR query category assigned to the email"
+          },
+          "categoryExplanation": {
+            "type": "string",
+            "description": "A brief explanation for why the email was classified into the selected HR category"
+          }
+        },
+        "title": "Outputs"
+      }
+    }
+  ]
+}

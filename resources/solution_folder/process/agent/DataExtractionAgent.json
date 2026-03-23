@@ -1,0 +1,58 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "DataExtractionAgent",
+    "kind": "process",
+    "type": "agent",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "36c509e5-4db9-4f23-b366-905c4b9d5748",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "DataExtractionAgent",
+        "kind": "package"
+      }
+    ],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "targetRuntime": null,
+      "referencedAssets": null,
+      "entryPointUniqueId": null,
+      "inputArgumentsSchema": null,
+      "inputArgumentsSchemaV2": null,
+      "type": "Agent",
+      "name": "DataExtractionAgent",
+      "description": null,
+      "package": {
+        "key": "2bf18a41-8cc7-4dd8-a37b-d885d1f85cf2"
+      },
+      "packageName": "AI-Powered._HR._Email_Communication_Automation.agent.DataExtractionAgent",
+      "packageVersion": null,
+      "entryPointName": null,
+      "inputArguments": "{}",
+      "hiddenForAttendedUser": false,
+      "alwaysRunning": false,
+      "autoStartProcess": false,
+      "targetFrameworkValue": "Portable",
+      "agentMemory": false,
+      "environmentVariables": null,
+      "retentionAction": "Delete",
+      "retentionPeriod": 30,
+      "retentionBucketRef": null,
+      "staleRetentionAction": "Delete",
+      "staleRetentionPeriod": 180,
+      "staleRetentionBucketRef": null,
+      "entryPoints": null,
+      "connections": null,
+      "tags": []
+    },
+    "locks": [],
+    "key": "de2f2617-e685-406d-8dcf-8b5a5f3fe93f"
+  }
+}

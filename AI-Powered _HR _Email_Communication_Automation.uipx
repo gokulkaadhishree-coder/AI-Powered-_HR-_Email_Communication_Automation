@@ -1,0 +1,42 @@
+{
+  "DocVersion": "1.0.0",
+  "StudioMinVersion": "2025.04.0",
+  "SolutionId": "7be45005-9136-479f-192e-08de83522182",
+  "Projects": [
+    {
+      "Type": "WebApp",
+      "ProjectRelativePath": "AdminApprovalAPP/project.uiproj",
+      "Id": "d50eb81b-c199-4568-9c94-b194548ceab4"
+    },
+    {
+      "Type": "ProcessOrchestration",
+      "ProjectRelativePath": "Agentic Process/project.uiproj",
+      "Id": "31e31724-5e2b-4ea4-99f6-1126240ba170"
+    },
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "CategoryClassificationAgent/project.uiproj",
+      "Id": "6e26b0d8-b2c1-4b3e-82a7-a6eb1fb16bef"
+    },
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "MailResponseAgent/project.uiproj",
+      "Id": "3fd6a5ef-fb39-4c43-b814-13cc6e2d5166"
+    },
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "DataExtractionAgent/project.uiproj",
+      "Id": "36c509e5-4db9-4f23-b366-905c4b9d5748"
+    },
+    {
+      "Type": "Process",
+      "ProjectRelativePath": "HREmailProcessor/project.uiproj",
+      "Id": "939c0e31-cc07-4695-92b0-b8f9a1e67548"
+    },
+    {
+      "Type": "Process",
+      "ProjectRelativePath": "SendResponseMail/project.uiproj",
+      "Id": "952c2b57-5b33-4bb8-bafb-a354d9a5ee72"
+    }
+  ]
+}

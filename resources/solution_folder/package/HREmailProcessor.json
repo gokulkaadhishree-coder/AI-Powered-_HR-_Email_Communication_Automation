@@ -1,0 +1,26 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "HREmailProcessor",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "939c0e31-cc07-4695-92b0-b8f9a1e67548",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "fileName": null,
+      "fileReference": null,
+      "name": "HREmailProcessor",
+      "description": null
+    },
+    "locks": [],
+    "key": "2e906adb-9288-460c-8207-f73b828ae06e"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "2405928@kiit.ac.in",
+    "kind": "connection",
+    "type": "uipath-google-gmail",
+    "apiVersion": "integrationservice.uipath.com/v1",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "connectorName": "Gmail",
+      "name": "2405928@kiit.ac.in",
+      "description": null,
+      "authenticationType": "AuthenticateAfterDeployment",
+      "connectorVersion": "1.24.0",
+      "connectorKey": "uipath-google-gmail",
+      "pollingInterval": 5
+    },
+    "locks": [],
+    "key": "6d1e4d0e-7851-46a3-9210-6215c96500ea"
+  }
+}

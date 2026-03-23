@@ -1,0 +1,63 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "$id": "entry-points.json",
+  "entryPoints": [
+    {
+      "filePath": "/content/agent.json",
+      "type": "agent",
+      "uniqueId": "57f5a8f0-a338-49ca-b6ed-b6c2876e5865",
+      "input": {
+        "type": "object",
+        "required": [
+          "employeeQuery",
+          "extractedFields"
+        ],
+        "properties": {
+          "employeeQuery": {
+            "type": "string",
+            "description": "The HR query or request submitted by the employee. This is the question or topic the employee needs information about (e.g., leave balance, payroll, policy clarification). Must not be empty."
+          },
+          "extractedFields": {
+            "type": "array",
+            "description": "An array of extracted HR data fields coming from the data extraction agent. Each item in the array is an object containing a field name and its corresponding value. The agent must use ONLY these values when composing the email response. Do not fabricate or infer any information not present in this array.",
+            "items": {
+              "type": "object",
+              "description": "A single extracted HR data field with its name and value.",
+              "properties": {
+                "fieldName": {
+                  "type": "string",
+                  "description": "The name of the HR data field, e.g., 'leaveBalance', 'policyName', 'effectiveDate'."
+                },
+                "fieldValue": {
+                  "type": "string",
+                  "description": "The corresponding value for the field, e.g., '12 days', 'Maternity Leave Policy', '2026-01-01'."
+                }
+              },
+              "required": [
+                "fieldName",
+                "fieldValue"
+              ]
+            }
+          }
+        }
+      },
+      "output": {
+        "type": "object",
+        "required": [
+          "emailSubject",
+          "emailBody"
+        ],
+        "properties": {
+          "emailSubject": {
+            "type": "string",
+            "description": "The subject line of the professional HR email response. Should be concise and clearly reflect the topic of the employee's query. Example: 'Re: Your Leave Balance Inquiry'."
+          },
+          "emailBody": {
+            "type": "string",
+            "description": "The full body of the professional HR email response. Must begin with 'Dear Employee,' and end with 'Best Regards,\nHR Support Team'. Must be composed strictly using the values from extractedFields. No fabricated, inferred, or assumed content. Polite, clear, and supportive HR tone."
+          }
+        }
+      }
+    }
+  ]
+}

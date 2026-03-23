@@ -1,0 +1,26 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "MailResponseAgent",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "3fd6a5ef-fb39-4c43-b814-13cc6e2d5166",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "fileName": null,
+      "fileReference": null,
+      "name": "MailResponseAgent",
+      "description": null
+    },
+    "locks": [],
+    "key": "df8d230b-e71c-480e-bfec-cf193a1f10c3"
+  }
+}

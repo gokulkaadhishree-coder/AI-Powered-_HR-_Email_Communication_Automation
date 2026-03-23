@@ -1,0 +1,27 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "hr_database_all_in_one",
+    "kind": "index",
+    "apiVersion": "ecs.uipath.com/v1",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "files": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "name": "hr_database_all_in_one",
+      "description": "conatins details of all the employees and policies",
+      "indexConfigurationJson": "{\u0022Version\u0022:3,\u0022Provider\u0022:3,\u0022DataSource\u0022:{\u0022Type\u0022:10,\u0022Properties\u0022:{\u0022folderName\u0022:\u0022Shared\u0022,\u0022directoryPath\u0022:\u0022/My Drive/hr_database\u0022,\u0022leafFolderId\u0022:\u00221YePQSUFf04vb_-HZ7447B6Z-qR6q3TK3\u0022,\u0022fileNameGlob\u0022:\u0022**/*.xlsx\u0022,\u0022connectionId\u0022:\u0022f43f7c81-5172-4b27-aa5f-644c6f4010f9\u0022,\u0022connectionName\u0022:\u00222405928@kiit.ac.in\u0022}}}",
+      "fileNameGlob": "XLSX",
+      "includeSubfolders": true,
+      "ingestionType": "Basic"
+    },
+    "locks": [],
+    "key": "800acd2f-e64d-4016-96e0-08de8303cdcb"
+  }
+}
